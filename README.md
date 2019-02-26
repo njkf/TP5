@@ -30,10 +30,10 @@ rtt min/avg/max/mdev = 38.164/41.702/43.773/2.157 ms
 Ping serveur1 par client2 : `ping -c 4 server1`
 
 PING server1 (10.5.1.10) 56(84) bytes of data.
-64 bytes from server1 (10.5.1.10): icmp_seq=1 ttl=62 time=43.7 ms
-64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=41.8 ms
-64 bytes from server1 (10.5.1.10): icmp_seq=3 ttl=62 time=43.0 ms
-64 bytes from server1 (10.5.1.10): icmp_seq=4 ttl=62 time=38.1 ms
+64 bytes from server1 (10.5.1.10): icmp_seq=1 ttl=62 time=43.7 ms  
+64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=41.8 ms  
+64 bytes from server1 (10.5.1.10): icmp_seq=3 ttl=62 time=43.0 ms  
+64 bytes from server1 (10.5.1.10): icmp_seq=4 ttl=62 time=38.1 ms  
 
 --- server1 ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3005ms
