@@ -70,19 +70,11 @@ rtt min/avg/max/mdev = 24.563/33.220/40.205/6.303 ms
 `systemctl status dhcpd` 
 
 `● dhcpd.service - DHCPv4 Server Daemon  
-
    Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; disabled; vendor preset: disabled)  
-   
    Active: active (running) since Mon 2019-02-25 20:37:08 CET; 1min 7s ago  
-   
-     Docs: man:dhcpd(8)  
-     
-           man:dhcpd.conf(5)  
-           
+     Docs: man:dhcpd(8)     
+           man:dhcpd.conf(5)           
  Main PID: 3443 (dhcpd)  
- 
    Status: "Dispatching packets..."  
-   
    CGroup: /system.slice/dhcpd.service  
-   
            └─3443 /usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.co...`
